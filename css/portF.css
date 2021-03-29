@@ -1,0 +1,431 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bgblack {
+    background-color: black;
+}
+
+.bglightpink {
+    background-color: white;
+}
+
+
+/* profile content */
+
+.profilebar {
+    height: 100vh;
+    width: 20%;
+    position: fixed;
+    background-color: black;
+    float: left;
+    text-align: center;
+    color: white;
+}
+
+.profileimage {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    margin: 20px 20px;
+    border: 5px solid teal;
+}
+
+.profileimage:hover {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+}
+
+.profilebar h3 {
+    height: 20px;
+    width: 50p;
+    margin: 20px 20px;
+}
+
+.social {
+    width: 100%;
+    margin-left: 5px;
+}
+
+.profilebar a i {
+    font-size: 25px;
+    border-radius: 50%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin: 0px 5px;
+    margin-top: 10px;
+}
+
+.profilebar a i:hover {
+    color: cornflowerblue;
+    transition: 1s;
+}
+
+.profilebar nav ul {
+    list-style-type: none;
+}
+
+.profilebar nav ul li {
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: left;
+}
+
+.profilebar nav ul li:hover {
+    color: black;
+    background-color: white;
+}
+
+.profilebar nav ul li a:hover {
+    color: black;
+}
+
+.profilebar nav ul li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+
+/* profile content */
+
+
+/*profile content bar */
+
+.content {
+    width: 80%;
+    float: right;
+}
+
+.frontpage {
+    width: 100%;
+    float: right;
+    background-position: center;
+    background-size: cover( 100px, 100px);
+}
+
+.frontpage h1 {
+    text-align: center;
+    color: teal;
+    text-shadow: 5px 5px 5px black;
+    padding-bottom: 27%;
+    padding-top: 27%;
+    font-size: 70px;
+}
+
+.heading {
+    height: 40px;
+    color: rgb(2, 48, 36);
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.heading:hover {
+    background-color: teal;
+    color: cornsilk;
+    transition: 1s;
+}
+
+
+/* aboutme bar */
+
+.personaldetail {
+    width: 100%;
+    float: right;
+}
+
+.personalinfo {
+    width: 80%;
+    background-color: blue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.profileinfomainbox {
+    width: 33.333%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.profileinfosubbox {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    text-align: left;
+    padding: 10px;
+}
+
+.personaldetail img {
+    width: 80%;
+    height: 200px;
+    border: 5px dashed darkslategrey;
+}
+
+.personalintro {
+    width: 100%;
+}
+
+.introduction {
+    text-align: justify;
+    color: darkslategrey;
+    font-size: 19px;
+    margin: 10px;
+}
+
+
+/* aboutme section  end*/
+
+
+/* myskill Section */
+
+.myskill {
+    width: 100%;
+    float: right;
+}
+
+.myskilllanguages {
+    width: 50%;
+    height: 250px;
+    float: left;
+    position: static;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.languages {
+    height: 10px;
+    width: 300PX;
+    background-color: blue;
+    margin-left: 30PX;
+}
+
+.myskilllanguages h5 {
+    height: 20px;
+    width: 150px;
+    color: darkslategrey;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-left: 30PX;
+}
+
+
+/* myskill section end*/
+
+
+/* edducation section */
+
+.educatoion {
+    width: 100%;
+    float: left;
+}
+
+.bachelors {
+    width: 80%;
+    margin: 20px 20px 60px 80px;
+    border: 2px solid olivedrab;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.bachelors p {
+    color: darkslategrey;
+    text-align: left;
+    padding: 10px 10px 10px;
+    font-size: 20px;
+}
+
+
+/* edducation section end */
+
+
+/* portfolio section */
+
+.portfolio {
+    width: 100%;
+    float: left;
+}
+
+.menu {
+    width: 80%;
+    background-color: teal;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.menu nav {
+    text-align: center;
+}
+
+.menu nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu nav ul li {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.menu nav ul li a {
+    text-align: left;
+    padding-left: 5px;
+    float: left;
+    text-decoration: none;
+    margin: 10px 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.template {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imagebox {
+    width: 33.333%;
+    float: left;
+    /* background-color: blueviolet; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.imagesubbox {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.imagesubbox img {
+    width: 100%;
+}
+
+
+/* portfolio section end */
+
+
+/* contect section */
+
+.contactsection {
+    width: 100%;
+    float: left;
+}
+
+.contectsectionrow {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contactbox {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding: 15px;
+}
+
+.contactsubbox {
+    width: 100%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contectsectionrow1 {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.inputname {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.inpunamesubbox {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 13px;
+    border: 2px solid blue;
+}
+
+.inputsubject {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.inputsubjectsubbox {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 13px;
+    border: 2px solid blue;
+}
+
+.inputmassage {
+    width: 100%;
+    font-size: 13px;
+    box-sizing: border-box;
+    border: 2px solid blue;
+}
+
+.inputbutton {
+    width: 100%;
+    font-size: 13px;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    text-align: center;
+}
+
+.submitbutton {
+    height: 40px;
+    width: 120px;
+    color: white;
+    margin: auto;
+}
+
+.address {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    color: darkslategrey;
+    background-color: whitesmoke;
+}
+
+.googlemap {
+    width: 100%;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.googlemap img {
+    height: 300px;
+    width: 100%;
+}
+
+
+/* contect section end */
